@@ -27,20 +27,104 @@ My core experience includes:
 - Data cleaning and validation
 
 The goal is simple: make inventory information accurate, organised, and useful for decision-making.
-Also worth doing:
-- Each project in `projects` has an empty `links: []`. Add `{ label: "View on GitHub", url: "https://github.com/..." }` entries once you have a repo or write-up for that project, and they'll render automatically.
-- The hero's "ledger card" and all stats are pulled from facts already in `content.js` — update the numbers there as your work changes (new SKU counts, new certs, etc.).
 
-## Deploying to GitHub Pages (as your own repo)
+## Featured Inventory Work
+## Hush'D Makeover — Inventory Report
 
-1. Create a new repository on GitHub named exactly `Funke-B.github.io` (this is what makes it a user-page site, served at that URL — skip this step if you're adding it to an existing repo instead).
-2. Upload `index.html` and `content.js` to the root of that repo (drag-and-drop on GitHub's web UI works fine, or `git add`/`commit`/`push` if you're using Git locally).
-3. In the repo's **Settings → Pages**, set the source to the `main` branch, root folder.
-4. Give it a minute or two — your site will be live at `https://funke-b.github.io/`.
+A portfolio case study based on inventory and sales reporting work.
 
-## Notes on this build
+The project covers 81 SKUs across multiple locations, with inventory valued at ₦xxx, followed by ABC classification and analysis of over- and under-stocked product lines.
 
-- Design is original — inspired by the structure of the reference site you shared (sticky nav, hero, timeline, live GitHub stats, filterable projects, certifications, contact), but with its own visual identity (a stock-ledger motif in the hero, a different palette and type system) and content drawn from what's already in your portfolio work: the ALX Maji Ndogo case study, the GlowHouse Cosmetics segmentation module, the Lumora Skincare workbook, and the Hush'D Makeover July 2026 report.
-- The GitHub stats and contribution graph are live — they pull from `https://api.github.com` and `ghchart.rshah.org` using your GitHub username at page load, so no manual updating needed there.
-- The contact form uses a plain `mailto:` link (opens the visitor's email client) instead of a third-party form service — no account or API key required. If you'd rather have messages land directly without opening an email client, a free service like Formspree or EmailJS can be dropped in later.
-- No photo is wired in. If you want to add one, put the image file in the repo (e.g. `imgs/profile.jpg`) and swap in an `<img>` tag where the ledger card sits in `index.html`, or alongside it.
+It demonstrates how inventory records can be reconciled, analysed, and turned into a structured management report.
+
+## Basic Stock Tracker
+
+An Excel reporting system built to transform raw sales data into a repeatable reporting workflow mainly for small businesses and helps answer questions like 
+- How much stock do we currently have?
+- Which products are moving quickly?
+- Which products have been sitting for too long?
+- What needs to be reordered?
+- How much money is tied up in inventory?
+- Are the physical quantities matching the records?
+- Where are stock losses or discrepancies happening?
+without using a complex inventory software.
+
+The workbook contains 3,000+ formula cells and demonstrates practical Excel modelling, reporting, and data organisation.
+
+## Truecount
+**Simple Inventory. Better Control.**
+
+Truecount is my practical inventory project focused on helping small businesses keep better stock records without the complexity of expensive inventory software.
+
+Through Truecount, I create simple inventory templates designed to help businesses:
+
+- Record stock
+- Monitor stock levels
+- Track stock movement
+- Identify low-stock items
+- Understand inventory value
+- Keep their records organised
+
+I also provide data-entry support for businesses that need help organising, updating, and maintaining their inventory records.
+
+Truecount is built around a simple idea:
+
+**"Good inventory management starts with good records".**
+
+## Data Analytics
+
+My move into data analytics builds on my existing experience working with operational data.
+
+I have completed the ALX Data Analytics Program and continue to develop my skills through practical projects involving:
+
+Excel
+Power BI
+Data cleaning and validation
+Data visualisation
+SQL
+Business reporting
+Customer and inventory analysis
+
+Rather than presenting analytics as separate from my experience, I am focused on applying analytical thinking to inventory, operations, and business data.
+
+## Certifications & Professional Development
+
+My portfolio includes professional development in:
+
+- ALX Data Analytics
+- ACISCM
+- ACIWM
+- CILSCM Postgraduate Diploma in Warehousing & Material Management
+- CPIM — In View
+  
+## Currently Developing
+
+I am continuing to build my capabilities in:
+
+- Inventory analytics
+- SQL
+- Power BI
+- Business intelligence
+- Data-driven reporting
+
+## Portfolio Website
+
+Visit the live portfolio:
+
+https://funke-b.github.io/Funke-Val-B.github.io/
+
+The website contains my professional journey, inventory projects, Truecount, certifications, experience, and ongoing development.
+
+## Repository
+
+This repository contains the files used to build my portfolio website.
+
+index.html — website structure and styling
+content.js — portfolio content, projects, certifications, experience and links
+README.md — documentation for the portfolio repository
+## About Me
+
+Funke Val
+Inventory Control | Inventory Reporting | Excel | Data Analytics
+
+I build practical systems, improve inventory processes, organise operational data, and turn records into reports that businesses can actually use. `index.html`, or alongside it.
