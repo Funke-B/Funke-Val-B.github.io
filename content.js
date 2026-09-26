@@ -16,12 +16,12 @@ window.SITE_DATA = {
     email: "bolarinoluwafunke1@gmail.com",
     github: "https://github.com/Funke-B",
     githubUsername: "Funke-B",
-    linkedin: "REPLACE ME — e.g. https://www.linkedin.com/in/your-handle",
-    initials: "OB",
+    linkedin: "https://www.linkedin.com/in/funkebolarinval/",
+    initials: "FB",
   },
 
   hero: {
-    eyebrow: "Inventory Control Supervisor · Lagos, Nigeria",
+    eyebrow: "Inventory Control Professional · Lagos, Nigeria",
     headline: "I turn warehouse guesswork into reports you can trust.",
     sub: "6+ years creating and running inventory control systems across Lagos's skincare and FMCG sector. I count what's actually on the shelf, reconcile it against what the books say, and turn the gap into a report someone can act on — no guessing, no surprises at stock take.",
     stats: [
