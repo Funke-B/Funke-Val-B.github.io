@@ -129,26 +129,16 @@ window.SITE_DATA = {
       tags: ["Excel", "Multi-Sheet Modeling", "Sales Reporting"],
       title: "Lumora Skincare — Sales Reporting Workbook",
       body: "A 10-sheet Excel workbook with 3,000+ formula cells, built to turn raw sales exports into a standing reporting system rather than a one-off report.",
-      links: [ 
-      {
-         url: "https://github.com/Funke-B/inventory-management-analytics-dashboard",
-      label: "View on GitHub →"
-    }
-   ],
-  },
-     {
+      links: [],
+    },
+    {
       category: "inventoryExcel",
       tags: ["Excel", "ABC Classification", "Multi-Location"],
       title: "Hush'D Makeover — July 2026 Inventory Report",
       body: "Reconciled 81 SKUs worth ₦769M across multiple locations, built an ABC classification to flag over- and under-stocked lines, and packaged the findings into a 12-page portfolio-ready case study.",
-      links: [
-      {
-         url: "https://github.com/Funke-B/inventory-management-analytics-dashboard",
-      label: "View on GitHub →"
-    }
-   ],
+      links: [],
     },
-    {
+  ],
 
   truecount: {
     heading: "Truecount Advisory",
