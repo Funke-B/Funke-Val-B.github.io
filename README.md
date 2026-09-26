@@ -1,19 +1,32 @@
 # Inventory Management & Data Analytics Portfolio
+## Inventory Control Professional | Inventory Reporting | Excel | Data Analytics
 
-Welcome to my portfolio.
+Welcome to my professional portfolio.
 
-This site brings together my work, experience, projects, and ongoing learning in inventory management, operations, reporting, and data analytics.
+I have 6+ years of experience across inventory control, logistics, and FMCG operations, with most of my experience in the skincare and cosmetics sector.
 
-My background is primarily in inventory and logistics, where I work with stock records, reconciliations, product movement, inventory reporting, batch and expiry tracking, and process improvement. I am also building my data analytics skills and learning how to turn operational data into clearer reports and useful business insights.
+My work is centred on keeping inventory records accurate, reconciling physical stock with system records, tracking stock movement across locations, preparing management reports, and building practical Excel-based systems that make inventory easier to monitor and control.
 
-## What You'll Find Here
+I am also developing my data analytics skills and applying them to real business and inventory-related problems.
 
-Open `content.js` and search for **"REPLACE ME"** — three placeholders I couldn't fill in for you:
+## What This Portfolio Covers
+Inventory Control & Reporting
 
-- `meta.email` — your real email address
-- `meta.linkedin` — your LinkedIn profile URL
-- `truecount.link` — Truecount Advisory's site, if it has one (or point it at a LinkedIn page, a one-pager, or remove the section in `index.html` if you'd rather not link it yet)
+My core experience includes:
 
+Stock reconciliation and physical counts
+Stock In and Stock Out tracking
+Multi-location inventory management
+Inventory valuation
+Stock movement reporting
+ABC classification
+Batch and expiry tracking
+Damages and stock adjustments
+Excel inventory systems
+Management reporting
+Data cleaning and validation
+
+The goal is simple: make inventory information accurate, organised, and useful for decision-making.
 Also worth doing:
 - Each project in `projects` has an empty `links: []`. Add `{ label: "View on GitHub", url: "https://github.com/..." }` entries once you have a repo or write-up for that project, and they'll render automatically.
 - The hero's "ledger card" and all stats are pulled from facts already in `content.js` — update the numbers there as your work changes (new SKU counts, new certs, etc.).
