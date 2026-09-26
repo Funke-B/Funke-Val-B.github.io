@@ -23,7 +23,13 @@ window.SITE_DATA = {
   hero: {
     eyebrow: "Inventory Control Professional · Lagos, Nigeria",
     headline: "Turning Warehouse Guesswork Into Reports You Can Trust.",
-    sub: "6+ years creating and running inventory control systems across Lagos's skincare and FMCG sector. I count what's actually on the shelf, reconcile it against what the books say, and turn the gap into a report someone can act on — no guessing, no surprises at stock take.",
+    sub: `
+  <p>I turn messy stock records and sales data into organized systems, clear dashboards, and practical reports that help businesses understand what’s really happening with their inventory.</p>
+
+  <p>Through Truecount, I create simple inventory templates that make it easier to record, monitor, and manage stock without the complexity of expensive inventory software.</p>
+
+  <p>I also provide data entry support for businesses that need help organizing, updating, and maintaining their inventory records.</p>
+`,
     stats: [
       { value: "6+", label: "Years in Inventory & Supply Chain" },
       { value: "4", label: "Professional Certifications" },
