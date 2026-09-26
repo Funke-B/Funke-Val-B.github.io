@@ -56,21 +56,10 @@
   .eyebrow{font-family:'JetBrains Mono',monospace; color:var(--teal); font-size:13px; margin-bottom:18px; display:flex; align-items:center; gap:8px;}
   .eyebrow .dot{width:7px; height:7px; border-radius:50%; background:var(--teal); box-shadow:0 0 8px var(--teal); animation:pulse 2.4s infinite;}
   @keyframes pulse{0%,100%{opacity:1;} 50%{opacity:.35;}}
-  h1.headline{font-size:clamp(32px,5vw,52px); font-weight:800; line-height:1.1; max-width:640px;}
-  .hero-sub{
-  color:var(--text-dim);
-  font-size:17px;
-  max-width:560px;
-  margin-top:20px;
-}
-
-.hero-sub p{
-  margin-bottom:16px;
-}
-
-.hero-sub p:last-child{
-  margin-bottom:0;
-}
+  h1.headline{font-size:clamp(24px,3.6vw,38px); font-weight:800; line-height:1.15; max-width:640px;}
+  .hero-sub{color:var(--text-dim); font-size:17px; max-width:560px; margin-top:20px;}
+  .hero-sub p{margin-bottom:16px;}
+  .hero-sub p:last-child{margin-bottom:0;}
   .hero-cta{display:flex; gap:14px; margin-top:32px; flex-wrap:wrap;}
   .btn{
     padding:13px 24px; border-radius:8px; font-size:14.5px; font-weight:600;
@@ -82,34 +71,19 @@
   .btn-ghost:hover{border-color:var(--teal); color:var(--teal);}
   .hero-stats{display:flex; gap:36px; margin-top:48px; flex-wrap:wrap;}
   .hero-grid{display:grid; grid-template-columns:1.1fr 0.9fr; gap:36px; align-items:center;}
-  @media(max-width:860px){ .hero-grid{grid-template-columns:1fr;} .ledger-wrap{justify-self:center; margin-top:8px;} }
+  @media(max-width:860px){ .hero-grid{grid-template-columns:1fr;} }
   .stat .value{font-family:'JetBrains Mono',monospace; font-size:27px; font-weight:600; color:var(--amber);}
   .stat .label{color:var(--text-faint); font-size:13px; margin-top:4px; max-width:140px;}
 
-  /* HERO LEDGER CARD — a stock-count sheet, standing in for a portrait */
-  .ledger-wrap{width:100%; max-width:380px;}
-  .ledger{
-    background:var(--panel); border:1px solid var(--border); border-radius:var(--radius);
-    overflow:hidden; box-shadow:0 20px 50px -20px #000;
+  /* HERO PHOTO */
+  .photo-wrap{width:100%; max-width:340px; justify-self:end;}
+  @media(max-width:860px){ .photo-wrap{justify-self:center; margin-top:8px;} }
+  .photo-frame{
+    aspect-ratio:4/5; border-radius:var(--radius); overflow:hidden;
+    border:1px solid var(--border); box-shadow:0 20px 50px -20px #000;
+    background:var(--panel);
   }
-  .ledger-head{
-    padding:14px 18px; border-bottom:1px solid var(--border-soft);
-    font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--text-faint);
-    display:flex; align-items:center; justify-content:space-between;
-  }
-  .ledger-head .lights{display:flex; gap:6px;}
-  .ledger-head .lights span{width:8px; height:8px; border-radius:50%; background:var(--border);}
-  .ledger-row{
-    display:grid; grid-template-columns:auto 1fr auto auto; gap:12px; align-items:center;
-    padding:12px 18px; border-bottom:1px solid var(--border-soft); font-size:13px;
-  }
-  .ledger-row:last-of-type{border-bottom:none;}
-  .ledger-sku{font-family:'JetBrains Mono',monospace; color:var(--text-faint); font-size:11.5px;}
-  .ledger-name{color:var(--text-dim);}
-  .ledger-qty{font-family:'JetBrains Mono',monospace; color:var(--text);}
-  .ledger-status.ok{color:var(--teal); font-size:13px;}
-  .ledger-status.recount{color:var(--amber); font-size:11px; font-family:'JetBrains Mono',monospace;}
-  .ledger-footer{padding:14px 18px; font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--text-faint); background:var(--panel-2);}
+  .photo-frame img{width:100%; height:100%; object-fit:cover; display:block;}
 
   /* SECTION HEAD */
   .sec-label{font-family:'JetBrains Mono',monospace; color:var(--teal); font-size:13px; margin-bottom:10px;}
@@ -181,6 +155,7 @@
   .cert-title{font-weight:700; font-size:15.5px;}
   .cert-meta{color:var(--text-faint); font-size:13px; margin-top:3px;}
   .cert-status{font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--amber); white-space:nowrap;}
+  .subhead{font-family:'JetBrains Mono',monospace; font-size:13px; color:var(--text-faint); margin-bottom:14px; text-transform:uppercase; letter-spacing:.04em;}
 
   /* EXPERIENCE */
   .exp-item{padding:22px 0; border-bottom:1px solid var(--border-soft);}
@@ -221,7 +196,7 @@
       <li><a href="#skills">Skills</a></li>
       <li><a href="#github">GitHub</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#certs">Certificates</a></li>
+      <li><a href="#certs">Credentials</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -234,21 +209,16 @@
     <div class="hero-text">
       <div class="eyebrow"><span class="dot"></span><span id="heroEyebrow"></span></div>
       <h1 class="headline" id="heroHeadline"></h1>
-      <p class="hero-sub" id="heroSub"></p>
+      <div class="hero-sub" id="heroSub"></div>
       <div class="hero-cta">
         <a href="#projects" class="btn btn-primary">View Projects</a>
         <a href="#contact" class="btn btn-ghost">Get in Touch</a>
       </div>
       <div class="hero-stats" id="heroStats"></div>
     </div>
-    <div class="ledger-wrap">
-      <div class="ledger">
-        <div class="ledger-head">
-          <span id="ledgerTitle"></span>
-          <span class="lights"><span></span><span></span><span></span></span>
-        </div>
-        <div id="ledgerRows"></div>
-        <div class="ledger-footer" id="ledgerFooter"></div>
+    <div class="photo-wrap">
+      <div class="photo-frame">
+        <img src="imgs/profile.jpg" alt="Oluwafunke Bolarin" id="profilePhoto">
       </div>
     </div>
   </div>
@@ -338,9 +308,12 @@
 <section id="certs">
   <div class="wrap">
     <div class="sec-head">
-      <div class="sec-label">// Certificates</div>
-      <h2 class="sec-title">Formal credentials behind the hands-on work.</h2>
+      <div class="sec-label">// Credentials</div>
+      <h2 class="sec-title">Formal education and professional training behind the hands-on work.</h2>
     </div>
+    <div class="subhead">Education</div>
+    <div class="cert-grid" id="eduGrid"></div>
+    <div class="subhead" style="margin-top:32px;">Professional Certifications & Training</div>
     <div class="cert-grid" id="certGrid"></div>
   </div>
 </section>
@@ -396,21 +369,11 @@
   // ---- HERO ----
   document.getElementById('heroEyebrow').textContent = D.hero.eyebrow;
   document.getElementById('heroHeadline').textContent = D.hero.headline;
-  document.getElementById('heroSub').innerHTML = D.hero.sub;
+  document.getElementById('heroSub').textContent = D.hero.sub;
   document.getElementById('heroStats').innerHTML = D.hero.stats.map(s =>
     `<div class="stat"><div class="value">${s.value}</div><div class="label">${s.label}</div></div>`
   ).join('');
 
-  // ---- HERO LEDGER CARD ----
-  document.getElementById('ledgerTitle').textContent = D.hero.ledger.title;
-  document.getElementById('ledgerRows').innerHTML = D.hero.ledger.rows.map(r => `
-    <div class="ledger-row">
-      <span class="ledger-sku">${r.sku}</span>
-      <span class="ledger-name">${r.name}</span>
-      <span class="ledger-qty">${r.qty}</span>
-      <span class="ledger-status ${r.status}">${r.status === 'ok' ? '✓' : '⚠ recount'}</span>
-    </div>`).join('');
-  document.getElementById('ledgerFooter').textContent = D.hero.ledger.footer;
 
   // ---- ABOUT ----
   document.getElementById('aboutHeading').textContent = D.about.heading;
@@ -478,6 +441,16 @@
   document.getElementById('tcHeading').textContent = D.truecount.heading;
   document.getElementById('tcBody').textContent = D.truecount.body;
   document.getElementById('tcLink').href = D.truecount.link;
+
+  // ---- EDUCATION ----
+  document.getElementById('eduGrid').innerHTML = D.education.map(e => `
+    <div class="cert-card">
+      <div>
+        <div class="cert-title">${e.title}</div>
+        <div class="cert-meta">${e.issuer}</div>
+      </div>
+      ${e.meta ? `<div class="cert-status">${e.meta}</div>` : ''}
+    </div>`).join('');
 
   // ---- CERTIFICATIONS ----
   document.getElementById('certGrid').innerHTML = D.certifications.map(c => `
