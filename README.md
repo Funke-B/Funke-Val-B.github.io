@@ -77,13 +77,13 @@ My move into data analytics builds on my existing experience working with operat
 
 I have completed the ALX Data Analytics Program and continue to develop my skills through practical projects involving:
 
-Excel
-Power BI
-Data cleaning and validation
-Data visualisation
-SQL
-Business reporting
-Customer and inventory analysis
+- Excel
+- Power BI
+- Data cleaning and validation
+- Data visualisation
+- SQL
+- Business reporting
+- Customer and inventory analysis
 
 Rather than presenting analytics as separate from my experience, I am focused on applying analytical thinking to inventory, operations, and business data.
 
