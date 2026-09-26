@@ -22,7 +22,7 @@ window.SITE_DATA = {
 
   hero: {
     eyebrow: "Inventory Control Professional · Lagos, Nigeria",
-    headline: "I turn warehouse guesswork into reports you can trust.",
+    headline: "Turning Warehouse Guesswork Into Reports You Can Trust.",
     sub: "6+ years creating and running inventory control systems across Lagos's skincare and FMCG sector. I count what's actually on the shelf, reconcile it against what the books say, and turn the gap into a report someone can act on — no guessing, no surprises at stock take.",
     stats: [
       { value: "6+", label: "Years in Inventory & Supply Chain" },
