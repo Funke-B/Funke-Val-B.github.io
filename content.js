@@ -74,14 +74,9 @@ window.SITE_DATA = {
       body: "Completed a structured data analytics program that introduced SQL and core data analysis fundamentals — the starting point for the pivot, not the finish line.",
     },
     {
-      year: "2026",
+      year: "April 2026 — Present",
       title: "Founded Truecount Advisory",
-      body: "Launched a solo inventory management consulting venture, run alongside full-time employment.",
-    },
-    {
-      year: "Sept 2026 — Present",
-      title: "Structured Analytics Curriculum",
-      body: "Working through a self-directed curriculum covering RFM segmentation, cohort analysis, demand forecasting, hypothesis testing, and regression — Module 1 run live against a synthetic cosmetics dataset.",
+      body: "Launched a solo inventory management consulting venture, that helps businesses track and control inventory.",
     },
   ],
 
@@ -100,7 +95,7 @@ window.SITE_DATA = {
     },
     {
       group: "Reporting & Docs",
-      items: ["docx (Node.js)", "PDF Portfolio Reports", "Data Storytelling"],
+      items: ["PDF Portfolio Reports", "Data Storytelling"],
     },
     {
       group: "Actively Developing",
@@ -148,15 +143,15 @@ window.SITE_DATA = {
   truecount: {
     heading: "Truecount Advisory",
     body: "A solo inventory management consulting venture, run alongside full-time employment — brand identity and service catalogue built out, sales collateral in progress.",
-    link: "REPLACE ME — e.g. https://truecountadvisory.com",
+    link: "https://claude.ai/artifact/GgobBoU7dq3P2NhcjoRou6",
   },
 
   certifications: [
     { title: "ALX Data Analytics Program", issuer: "ALX", meta: "Completed" },
-    { title: "ACISCM", issuer: "Chartered Institute of Stock and Inventory Control Management", meta: "" },
-    { title: "ACIWM", issuer: "Chartered Institute of Warehousing & Materials Management", meta: "" },
-    { title: "CILSCM Postgraduate Diploma", issuer: "Chartered Institute of Logistics & Supply Chain Management", meta: "" },
-    { title: "CIPS Procurement Certification", issuer: "Chartered Institute of Procurement & Supply", meta: "In progress" },
+    { title: "ACISCM", issuer: "Associate Chartered Institute of Supply Chain Management", meta: "Completed" },
+    { title: "ACIWM", issuer: "Associate Chartered Institute of Warehouse Management", meta: "Completed" },
+    { title: "CILSCM Postgraduate Diploma (PGD) in Warehousing and Material Management", issuer: "Chartered Institute of Logistics & Supply Chain Management", meta: "Completed" },
+    { title: "CPIM Certified in Planning and Inventory Management", issuer: "Association for Supply Chain Management(ASCM)", meta: "In View" },
   ],
 
   experience: [
