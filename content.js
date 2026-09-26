@@ -16,14 +16,14 @@ window.SITE_DATA = {
     email: "bolarinoluwafunke1@gmail.com",
     github: "https://github.com/Funke-B",
     githubUsername: "Funke-B",
-    linkedin: "https://www.linkedin.com/in/funkebolarinval/",
+    linkedin: "REPLACE ME — e.g. https://www.linkedin.com/in/your-handle",
     initials: "OB",
   },
 
   hero: {
     eyebrow: "Inventory Control Supervisor · Lagos, Nigeria",
-    headline: "Oluwafunke Bolarin.",
-    sub: "I make sure the number on the shelf matches the number on the sheet — then I build the report that shows what the sheet was hiding. 6+ years in FMCG and retail inventory control, now applying the same discipline to SQL, Excel, and Power BI.",
+    headline: "I turn warehouse guesswork into reports you can trust.",
+    sub: "6+ years creating and running inventory control systems across Lagos's skincare and FMCG sector. I count what's actually on the shelf, reconcile it against what the books say, and turn the gap into a report someone can act on — no guessing, no surprises at stock take.",
     stats: [
       { value: "6+", label: "Years in Inventory & Supply Chain" },
       { value: "4", label: "Professional Certifications" },
@@ -43,7 +43,7 @@ window.SITE_DATA = {
 
   about: {
     heading: "I clean, count, and reconcile before I trust a number enough to report it.",
-    body: "I'm an Inventory Control Supervisor with 6+ years across Lagos's skincare, cosmetics, and FMCG sectors, holding ACISCM, ACIWM, and a CILSCM Postgraduate Diploma, with CIPS procurement in progress. Alongside that, I completed the ALX Data Analytics Program and I'm building a second, complementary skill set in SQL, Excel automation, and Power BI — deliberately, on real inventory data rather than tutorials, while keeping my supply-chain identity intact.",
+    body: "I'm an Inventory Control Supervisor with 6+ years across Lagos's skincare, cosmetics, and FMCG sectors, holding ACISCM, ACIWM, and a CILSCM Postgraduate Diploma, with CIPS procurement in progress. Alongside that, I completed the ALX Data Analytics Program and I'm building a second, complementary skill set — Excel automation and Power BI now, with SQL and Python next — deliberately, on real inventory data rather than tutorials, while keeping my supply-chain identity intact.",
     correction: {
       label: "From a live report, not a sample dataset",
       headline: "81 SKUs reconciled across multiple locations, worth ₦769M, fully ABC classified",
@@ -65,7 +65,7 @@ window.SITE_DATA = {
     {
       year: "2026",
       title: "ALX Data Analytics Program",
-      body: "Completed a structured data analytics program covering SQL, and started applying it to real business questions instead of exercises.",
+      body: "Completed a structured data analytics program that introduced SQL and core data analysis fundamentals — the starting point for the pivot, not the finish line.",
     },
     {
       year: "2026",
@@ -75,7 +75,7 @@ window.SITE_DATA = {
     {
       year: "Aug 2026",
       title: "Built the GitHub Portfolio",
-      body: "Designed and shipped a portfolio site from scratch, incorporating real ALX SQL work, real inventory report data, and custom branding.",
+      body: "Designed and shipped a portfolio site from scratch, incorporating real ALX coursework, real inventory report data, and custom branding.",
     },
     {
       year: "Sept 2026 — Present",
@@ -94,8 +94,8 @@ window.SITE_DATA = {
       items: ["Advanced Formulas", "Multi-Sheet Data Modeling", "Dashboard Building", "openpyxl (Python)"],
     },
     {
-      group: "Data & Querying",
-      items: ["SQL", "Data Cleaning & Validation", "Power BI (trained)"],
+      group: "Data & Reporting",
+      items: ["Data Cleaning & Validation", "Power BI (trained)"],
     },
     {
       group: "Reporting & Docs",
@@ -103,7 +103,7 @@ window.SITE_DATA = {
     },
     {
       group: "Actively Developing",
-      items: ["Python", "Tableau"],
+      items: ["SQL", "Python", "Tableau"],
     },
   ],
 
@@ -111,14 +111,14 @@ window.SITE_DATA = {
   projects: [
     {
       category: "dataAnalyst",
-      tags: ["SQL", "ALX", "Data Cleaning"],
+      tags: ["ALX Coursework", "Data Cleaning"],
       title: "Maji Ndogo — Water Access Case Study",
-      body: "A four-part SQL case study from the ALX Data Analytics Program, investigating water-source access and quality across a fictional region: cleaning inconsistent source records, joining across tables, and querying for where infrastructure spend would matter most.",
+      body: "A four-part case study from the ALX Data Analytics Program — my first hands-on introduction to SQL and data cleaning, investigating water-source access and quality across a fictional region.",
       links: [],
     },
     {
       category: "dataAnalyst",
-      tags: ["RFM Segmentation", "SQL", "Customer Analytics"],
+      tags: ["RFM Segmentation", "Excel", "Customer Analytics"],
       title: "GlowHouse Cosmetics — Customer Segmentation",
       body: "Module 1 of a self-directed analytics curriculum, run against a synthetic cosmetics-retail dataset: RFM segmentation to separate high-value repeat customers from one-time buyers.",
       links: [],
