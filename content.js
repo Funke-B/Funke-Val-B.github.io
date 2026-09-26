@@ -111,12 +111,17 @@ window.SITE_DATA = {
   // category controls the filter tab: dataAnalyst | inventoryExcel
   projects: [
     {
-      category: "dataAnalyst",
-      tags: ["ALX Coursework", "Data Cleaning"],
-      title: "Maji Ndogo — Water Access Case Study",
-      body: "A four-part case study from the ALX Data Analytics Program — my first hands-on introduction to SQL and data cleaning, investigating water-source access and quality across a fictional region.",
-      links: [],
-    },
+  category: "dataAnalyst",
+  tags: ["ALX Coursework", "Data Cleaning"],
+  title: "Maji Ndogo — Water Access Case Study",
+  body: "A four-part case study from the ALX Data Analytics Program — my first hands-on introduction to SQL and data cleaning, investigating water-source access and quality across a fictional region.",
+  links: [
+    {
+      url: "https://github.com/Funke-B/Clustering-data-to-unveil-Maji-Ndogo-s-water-crisis",
+      label: "View on GitHub →"
+    }
+  ],
+},
     {
       category: "dataAnalyst",
       tags: ["RFM Segmentation", "Excel", "Customer Analytics"],
