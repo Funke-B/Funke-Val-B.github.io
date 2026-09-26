@@ -49,27 +49,27 @@ window.SITE_DATA = {
 
   about: {
     heading: "I clean, count, and reconcile before I trust a number enough to report it.",
-    body: "I'm an Inventory Control Professional with 6+ years in cosmetics, and FMCG sectors, holding ACISCM, ACIWM, and a CILSCM Postgraduate Diploma, with CPIM in view. Alongside that, I completed the ALX Data Analytics Program and I'm building a second, complementary skill set — Excel automation and Power BI now, with SQL and Python next — deliberately, on real inventory data rather than tutorials, while keeping my supply-chain identity intact.",
+    body: "I’m an Inventory Control Professional with 6+ years of experience across inventory, logistics, and FMCG operations, with most of my experience in the skincare and cosmetics sector. My work involves keeping stock records accurate, reconciling physical stock with records, tracking movements across locations, preparing inventory reports, and building Excel-based systems that make stock easier to monitor and manage. I hold ACISCM, ACIWM, and a CILSCM Professional Postgraduate Diploma, with CPIM in view. I completed the ALX Data Analytics Program. Alongside that, I build simple inventory templates and provide data entry support to help businesses keep their stock records organized and up to date.",
     correction: {
       label: "From a live report, not a sample dataset",
       headline: "81 SKUs reconciled across multiple locations, worth ₦769M, fully ABC classified",
-      body: "Built as the July 2026 inventory and sales report for Hush'D Makeover Limited, then turned into a 12-page portfolio case study covering classification logic and multi-location analysis.",
+      body: "Built as inventory and sales report, then turned into a portfolio case study covering classification logic and multi-location analysis.",
     },
   },
 
   journey: [
     {
-      year: "6+ yrs",
+      year: "7 yrs",
       title: "FMCG & Retail Inventory Control",
       body: "Built a foundation in inventory control and supply chain operations across Lagos's skincare, cosmetics, and FMCG sectors.",
     },
     {
       year: "Credentials",
       title: "ACISCM, ACIWM & CILSCM Postgraduate Diploma",
-      body: "Formalised that experience with three supply-chain and warehouse-management credentials, and started the CIPS procurement certification.",
+      body: "Formalised that experience with three supply-chain and warehouse-management credentials, with CPIM in View.",
     },
     {
-      year: "2026",
+      year: "2024",
       title: "ALX Data Analytics Program",
       body: "Completed a structured data analytics program that introduced SQL and core data analysis fundamentals — the starting point for the pivot, not the finish line.",
     },
@@ -77,11 +77,6 @@ window.SITE_DATA = {
       year: "2026",
       title: "Founded Truecount Advisory",
       body: "Launched a solo inventory management consulting venture, run alongside full-time employment.",
-    },
-    {
-      year: "Aug 2026",
-      title: "Built the GitHub Portfolio",
-      body: "Designed and shipped a portfolio site from scratch, incorporating real ALX coursework, real inventory report data, and custom branding.",
     },
     {
       year: "Sept 2026 — Present",
@@ -93,11 +88,11 @@ window.SITE_DATA = {
   skills: [
     {
       group: "Inventory & Operations",
-      items: ["Stock Reconciliation", "ABC Classification", "Multi-Location Reporting", "Demand Planning", "Procurement (CIPS in progress)"],
+      items: ["Stock Reconciliation", "ABC Classification", "Multi-Location Reporting", "Demand Planning", "Inventory Valuation"],
     },
     {
       group: "Excel",
-      items: ["Advanced Formulas", "Multi-Sheet Data Modeling", "Dashboard Building", "openpyxl (Python)"],
+      items: ["Advanced Formulas", "Multi-Sheet Data Modeling", "Dashboard Building"],
     },
     {
       group: "Data & Reporting",
@@ -120,7 +115,7 @@ window.SITE_DATA = {
       tags: ["ALX Coursework", "Data Cleaning"],
       title: "Maji Ndogo — Water Access Case Study",
       body: "A four-part case study from the ALX Data Analytics Program — my first hands-on introduction to SQL and data cleaning, investigating water-source access and quality across a fictional region.",
-      links: [],
+      links: [https://github.com/Funke-B/Clustering-data-to-unveil-Maji-Ndogo-s-water-crisis],
     },
     {
       category: "dataAnalyst",
