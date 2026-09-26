@@ -115,7 +115,7 @@ window.SITE_DATA = {
       tags: ["ALX Coursework", "Data Cleaning"],
       title: "Maji Ndogo — Water Access Case Study",
       body: "A four-part case study from the ALX Data Analytics Program — my first hands-on introduction to SQL and data cleaning, investigating water-source access and quality across a fictional region.",
-      links: [https://github.com/Funke-B/Clustering-data-to-unveil-Maji-Ndogo-s-water-crisis],
+      links: [],
     },
     {
       category: "dataAnalyst",
