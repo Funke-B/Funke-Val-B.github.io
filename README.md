@@ -90,7 +90,6 @@ Rather than presenting analytics as separate from my experience, I am focused on
 ## Certifications & Professional Development
 
 My portfolio includes professional development in:
-
 - ALX Data Analytics
 - ACISCM
 - ACIWM
@@ -100,7 +99,6 @@ My portfolio includes professional development in:
 ## Currently Developing
 
 I am continuing to build my capabilities in:
-
 - Inventory analytics
 - SQL
 - Power BI
@@ -110,18 +108,16 @@ I am continuing to build my capabilities in:
 ## Portfolio Website
 
 Visit the live portfolio:
-
 https://funke-b.github.io/Funke-Val-B.github.io/
-
 The website contains my professional journey, inventory projects, Truecount, certifications, experience, and ongoing development.
 
 ## Repository
 
 This repository contains the files used to build my portfolio website.
 
-index.html — website structure and styling
-content.js — portfolio content, projects, certifications, experience and links
-README.md — documentation for the portfolio repository
+- index.html — website structure and styling
+- content.js — portfolio content, projects, certifications, experience and links
+- README.md — documentation for the portfolio repository
 ## About Me
 
 Funke Val
