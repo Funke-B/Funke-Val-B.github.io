@@ -1,6 +1,10 @@
-# Portfolio Site
+# Inventory Management & Data Analytics Portfolio
 
-A single-page portfolio: `index.html` holds the layout and styling, `content.js` holds everything editable (text, projects, certs, links). You should only need to touch `content.js` for routine updates.
+Welcome to my portfolio.
+
+This site brings together my work, experience, projects, and ongoing learning in inventory management, operations, reporting, and data analytics.
+
+My background is primarily in inventory and logistics, where I work with stock records, reconciliations, product movement, inventory reporting, batch and expiry tracking, and process improvement. I am also building my data analytics skills and learning how to turn operational data into clearer reports and useful business insights.
 
 ## Before you publish
 
