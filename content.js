@@ -31,7 +31,7 @@ window.SITE_DATA = {
   <p>I also provide data entry support for businesses that need help organizing, updating, and maintaining their inventory records.</p>
 `,
     stats: [
-      { value: "6+", label: "Years in Inventory & Supply Chain" },
+      { value: "7", label: "Years in Inventory Management" },
       { value: "4", label: "Professional Certifications" },
       { value: "2026", label: "Data Analytics Pivot, Underway" },
     ],
@@ -49,7 +49,7 @@ window.SITE_DATA = {
 
   about: {
     heading: "I clean, count, and reconcile before I trust a number enough to report it.",
-    body: "I'm an Inventory Control Supervisor with 6+ years across Lagos's skincare, cosmetics, and FMCG sectors, holding ACISCM, ACIWM, and a CILSCM Postgraduate Diploma, with CIPS procurement in progress. Alongside that, I completed the ALX Data Analytics Program and I'm building a second, complementary skill set — Excel automation and Power BI now, with SQL and Python next — deliberately, on real inventory data rather than tutorials, while keeping my supply-chain identity intact.",
+    body: "I'm an Inventory Control Professional with 6+ years in cosmetics, and FMCG sectors, holding ACISCM, ACIWM, and a CILSCM Postgraduate Diploma, with CPIM in view. Alongside that, I completed the ALX Data Analytics Program and I'm building a second, complementary skill set — Excel automation and Power BI now, with SQL and Python next — deliberately, on real inventory data rather than tutorials, while keeping my supply-chain identity intact.",
     correction: {
       label: "From a live report, not a sample dataset",
       headline: "81 SKUs reconciled across multiple locations, worth ₦769M, fully ABC classified",
