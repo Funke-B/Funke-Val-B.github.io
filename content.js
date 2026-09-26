@@ -11,12 +11,12 @@ window.SITE_DATA = {
 
   meta: {
     name: "Oluwafunke Bolarin",
-    title: "Inventory Control Supervisor & Data Analyst in Training",
+    title: "Inventory Control Professional & Data Analyst in Training",
     location: "Lagos, Nigeria",
-    email: "REPLACE ME — e.g. funke@example.com",
+    email: "bolarinoluwafunke1@gmail.com",
     github: "https://github.com/Funke-B",
     githubUsername: "Funke-B",
-    linkedin: "REPLACE ME — e.g. https://www.linkedin.com/in/your-handle",
+    linkedin: "https://www.linkedin.com/in/funkebolarinval/",
     initials: "OB",
   },
 
