@@ -14,17 +14,17 @@ Inventory Control & Reporting
 
 My core experience includes:
 
-Stock reconciliation and physical counts
-Stock In and Stock Out tracking
-Multi-location inventory management
-Inventory valuation
-Stock movement reporting
-ABC classification
-Batch and expiry tracking
-Damages and stock adjustments
-Excel inventory systems
-Management reporting
-Data cleaning and validation
+- Stock reconciliation and physical counts
+- Stock In and Stock Out tracking
+- Multi-location inventory management
+- Inventory valuation
+- Stock movement reporting
+- ABC classification
+- Batch and expiry tracking
+- Damages and stock adjustments
+- Excel inventory systems
+- Management reporting
+- Data cleaning and validation
 
 The goal is simple: make inventory information accurate, organised, and useful for decision-making.
 Also worth doing:
