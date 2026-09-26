@@ -6,7 +6,7 @@ This site brings together my work, experience, projects, and ongoing learning in
 
 My background is primarily in inventory and logistics, where I work with stock records, reconciliations, product movement, inventory reporting, batch and expiry tracking, and process improvement. I am also building my data analytics skills and learning how to turn operational data into clearer reports and useful business insights.
 
-## Before you publish
+## What You'll Find Here
 
 Open `content.js` and search for **"REPLACE ME"** — three placeholders I couldn't fill in for you:
 
