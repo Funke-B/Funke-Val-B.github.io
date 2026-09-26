@@ -115,9 +115,9 @@ The website contains my professional journey, inventory projects, Truecount, cer
 
 This repository contains the files used to build my portfolio website.
 
-- 'index.html' — website structure and styling
-- 'content.js' — portfolio content, projects, certifications, experience and links
-- 'README.md' — documentation for the portfolio repository
+- `index.html` — website structure and styling
+- `content.js` — portfolio content, projects, certifications, experience and links
+- `README.md` — documentation for the portfolio repository
 ## About Me
 
 Funke Val
