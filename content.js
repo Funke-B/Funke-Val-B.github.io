@@ -134,8 +134,8 @@ window.SITE_DATA = {
     {
       category: "inventoryExcel",
       tags: ["Excel", "ABC Classification", "Multi-Location"],
-      title: "Hush'D Makeover — Inventory Report",
-      body: "Reconciled 81 SKUs worth ₦xxx across multiple locations, built an ABC classification to flag over- and under-stocked lines, and packaged the findings into a 12-page portfolio-ready case study.",
+      title: "Inventory Management Report",
+      body: "Reconciled 81 SKUs worth ₦769M across multiple locations, built an ABC classification to flag over- and under-stocked lines, and packaged the findings into a 12-page portfolio-ready case study.",
       links: [
         {
     url: "https://github.com/Funke-B/inventory-management-analytics-dashboard",
