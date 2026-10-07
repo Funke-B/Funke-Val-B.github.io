@@ -119,11 +119,16 @@ window.SITE_DATA = {
 },
     {
       category: "dataAnalyst",
-      tags: ["RFM Segmentation", "Excel", "Customer Analytics"],
-      title: "GlowHouse Cosmetics — Customer Segmentation",
-      body: "Module 1 of a self-directed analytics curriculum, run against a synthetic cosmetics-retail dataset: RFM segmentation to separate high-value repeat customers from one-time buyers.",
-      links: [],
-    },
+      tags: ["Sales Analysis", "Excel", "Dashboard"],
+      title: "Sales Performance & Profitability Analysis, 2026",
+      body: "Excel dashboard analysing ₦118.6M in generated retail sales: cleaning the data, finding where profit comes from, and where it leaks.",
+      links: [
+      { 
+        url: "https://github.com/Funke-B/Sales-Performance-Customer-Analytics-Dashboard",
+        label: "View on GitHub →"
+      }
+    ],
+  },
     {
       category: "inventoryExcel",
       tags: ["Excel", "Multi-Sheet Modeling", "Sales Reporting"],
